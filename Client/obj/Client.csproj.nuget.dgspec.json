@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\Client\\Client.csproj": {}
+    "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\Client\\Client.csproj": {
+    "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\Client\\Client.csproj",
+        "projectPath": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\nlxli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\Client\\obj\\",
+        "outputPath": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nlxli\\AppData\\Roaming\\NuGet\\NuGet.Config",

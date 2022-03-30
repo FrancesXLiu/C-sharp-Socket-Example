@@ -46,6 +46,7 @@
             this.btnConnect.TabIndex = 9;
             this.btnConnect.Text = "连接";
             this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // txtPort
             // 
@@ -105,6 +106,7 @@
             this.btnSend.TabIndex = 13;
             this.btnSend.Text = "发送";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Client
             // 
@@ -120,7 +122,7 @@
             this.Controls.Add(this.txtIP);
             this.Controls.Add(this.label1);
             this.Name = "Client";
-            this.Text = "Client";
+            this.Text = "客户端";
             this.ResumeLayout(false);
             this.PerformLayout();
 

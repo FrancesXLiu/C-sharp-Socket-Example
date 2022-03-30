@@ -87,21 +87,22 @@
             this.txtMainBoard.Location = new System.Drawing.Point(12, 144);
             this.txtMainBoard.Multiline = true;
             this.txtMainBoard.Name = "txtMainBoard";
-            this.txtMainBoard.Size = new System.Drawing.Size(1368, 439);
+            this.txtMainBoard.Size = new System.Drawing.Size(1368, 775);
             this.txtMainBoard.TabIndex = 10;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(1116, 750);
+            this.btnSend.Location = new System.Drawing.Point(1116, 1082);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(264, 46);
             this.btnSend.TabIndex = 15;
             this.btnSend.Text = "发送";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // txtMsg
             // 
-            this.txtMsg.Location = new System.Drawing.Point(12, 618);
+            this.txtMsg.Location = new System.Drawing.Point(12, 950);
             this.txtMsg.Multiline = true;
             this.txtMsg.Name = "txtMsg";
             this.txtMsg.Size = new System.Drawing.Size(1368, 114);
@@ -109,7 +110,7 @@
             // 
             // Server
             // 
-            this.ClientSize = new System.Drawing.Size(1405, 835);
+            this.ClientSize = new System.Drawing.Size(1405, 1160);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtMainBoard);

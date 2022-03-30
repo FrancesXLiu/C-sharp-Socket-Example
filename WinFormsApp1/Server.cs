@@ -41,7 +41,10 @@ namespace WinFormsApp1
                 Socket client = server.Accept(); // 接受客户端连接
                 clientList.Add(client);
                 AppendToMainBoardText(string.Format("客户端{0}已连接", client.LocalEndPoint));
-
+                byte[] data = new byte[2*1024];
+                int len = client.Receive(data, SocketFlags.None); // 用Receive接收客户端发过来的信息
+                string msg = Encoding.Default.GetString(data, 0, len);
+                AppendToMainBoardText(string.Format("客户端说：{0}", msg));
             }
 
         }
@@ -58,6 +61,11 @@ namespace WinFormsApp1
             {
                 txtMainBoard.Text = text + "\r\n" + txtMainBoard.Text;
             }
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

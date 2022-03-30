@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\WinFormsApp1\\Server.csproj",
+      "projectUniqueName": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\WinFormsApp1\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\WinFormsApp1\\Server.csproj",
+      "projectPath": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\WinFormsApp1\\Server.csproj",
       "packagesPath": "C:\\Users\\nlxli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nlxli\\OneDrive\\桌面\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\ME\\22S1\\COMPSCI 711\\C#SocketEample\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nlxli\\AppData\\Roaming\\NuGet\\NuGet.Config",
